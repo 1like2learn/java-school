@@ -520,7 +520,7 @@ Status OK
 
 After completing the project using the provided seed data, a successful application will return the following data based on the given endpoint. Only added or changed endpoints are shown below. Expand the section of the endpoint to see the data that is returned.
 
-### MVP
+### MVP [1]
 
 <details>
 <summary>http://localhost:2019/students/student/3333</summary>
@@ -570,7 +570,7 @@ After completing the project using the provided seed data, a successful applicat
 
 </details>
 
-### Stretch Goals
+### Stretch Goals [2]
 
 <details>
 <summary>http://localhost:2019/instructors/instructor/3/advice</summary>
@@ -699,7 +699,7 @@ Prevent null advice from displaying
 
 </details>
 
-## Instructions
+## Instructions [3]
 
 * [x] Please fork and clone this repository.
 * [x] This repository does have a starter project, so you must start with that application inside of the cloned repository folder. Regularly commit and push your code as appropriate.
@@ -709,13 +709,13 @@ Prevent null advice from displaying
 
 Add appropriate exception handling routines.
 
-* [ ] You must specifically handle the following exceptions:
-  * [ ] a resource is not found where it should be - for example, you look up a student who is not there
-  * [ ] a resource is found where it should not be - for example, you try to enroll a student in a course where they are already enrolled
-  * [ ] a non-handled endpoint is accessed (a URL not found exception)
-* [ ] All other exceptions should be handled by some generic exception handled that you provide.
-* [ ] All exception messages should start with the phrase "Found an issue with School: " followed by any system-generated messages you think appropriate.
-* [ ] The following is the format for the error messages
+* [x] You must specifically handle the following exceptions:
+  * [x] a resource is not found where it should be - for example, you look up a student who is not there
+  * [x] a resource is found where it should not be - for example, you try to enroll a student in a course where they are already enrolled
+  * [x] a non-handled endpoint is accessed (a URL not found exception)
+* [x] All other exceptions should be handled by some generic exception handled that you provide.
+* [x] All exception messages should start with the phrase "Found an issue with School: " followed by any system-generated messages you think appropriate.
+* [x] The following is the format for the error messages
   * **Title** - The title of the exception
   * **Status** - Http Status Code
   * **detail** - Detailed message for the client
@@ -723,7 +723,7 @@ Add appropriate exception handling routines.
   * **developer** -  message for developers about this error message, things like class and code causing the error
   * **List of Validation Errors** - If data validation errors caused this error, the list of them will appear here
 
-### Stretch Goal
+### Stretch Goal [4]
 
 Add Validations
 
